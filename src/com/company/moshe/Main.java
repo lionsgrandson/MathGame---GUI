@@ -33,28 +33,44 @@ public class Main {
     }
 
     public void mainRun() throws IOException {
-
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (UnsupportedLookAndFeelException e) {
+            e.printStackTrace();
+        }
         JFrame frame = new JFrame();
+        JPanel panel = new JPanel();
+        frame.add(panel);
+
         JLabel label = new JLabel();
-        JTextField textField = new JTextField("TextField", 10);
+        JTextField textField = new JTextField("", 10);
         JButton button = new JButton();
 
-        frame.add(textField);
-        frame.add(label);
-        frame.add(button);
+        panel.add(label);
+        panel.add(textField);
+        panel.add(button);
 
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        frame.getContentPane().setLayout(new GridLayout(2, 1));
+        panel.getRootPane().getContentPane().setLayout(new GridLayout(3, 1));
 
 
         textField.setSize(10, 10);
-        Border thickBorder = new LineBorder(Color.BLACK, 5);
+        Border thickBorder = new LineBorder(Color.BLACK, 2);
         textField.setBorder(thickBorder);
+
         label.setHorizontalAlignment(SwingConstants.CENTER);
         label.setVerticalAlignment(SwingConstants.CENTER);
         label.setText("this is text");
 
         button.setText("Enter");
+        button.setHorizontalAlignment(SwingConstants.CENTER);
+        button.setVerticalAlignment(SwingConstants.CENTER);
 
         frame.setSize(500, 500);
         frame.setTitle("Math Game");
