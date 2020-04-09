@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4f50eb8-cd25-4179-8645-c68a9932f041" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a5UV3xbgBBy515wn7jfy2q71iA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.moshe.GUI" />
+      <module name="MathGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.moshe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.moshe.Main" />
+      <module name="MathGame" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GUI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4f50eb8-cd25-4179-8645-c68a9932f041" name="Default Changelist" comment="" />
+      <created>1586024971323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586024971323</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-926" y="-45" key="#com.intellij.ide.util.MemberChooser" timestamp="1586099017329">
+      <screen x="-1440" y="-138" width="1440" height="860" />
+    </state>
+    <state x="-926" y="-45" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586099017329" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586027235391" />
+    <state x="-1018" y="71" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586084340250">
+      <screen x="-1440" y="-138" width="1440" height="860" />
+    </state>
+    <state x="-1018" y="71" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586084340250" />
+    <state x="-1040" y="27" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586113534037">
+      <screen x="-1440" y="-138" width="1440" height="860" />
+    </state>
+    <state x="-1040" y="27" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586113534037" />
+    <state width="1323" height="222" key="GridCell.Tab.0.bottom" timestamp="1586343615505">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586277616008" />
+    <state width="1323" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586343615505" />
+    <state width="1323" height="222" key="GridCell.Tab.0.center" timestamp="1586343615505">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586277616008" />
+    <state width="1323" height="222" key="GridCell.Tab.0.center/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586343615505" />
+    <state width="1323" height="222" key="GridCell.Tab.0.left" timestamp="1586343615504">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586277616008" />
+    <state width="1323" height="222" key="GridCell.Tab.0.left/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586343615504" />
+    <state width="1323" height="222" key="GridCell.Tab.0.right" timestamp="1586343615505">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586277616008" />
+    <state width="1323" height="222" key="GridCell.Tab.0.right/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586343615505" />
+    <state width="1397" height="275" key="GridCell.Tab.1.bottom" timestamp="1586113585601">
+      <screen x="-1440" y="-138" width="1440" height="860" />
+    </state>
+    <state width="1397" height="275" key="GridCell.Tab.1.bottom/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586113585601" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586029472619" />
+    <state width="1397" height="275" key="GridCell.Tab.1.center" timestamp="1586113585601">
+      <screen x="-1440" y="-138" width="1440" height="860" />
+    </state>
+    <state width="1397" height="275" key="GridCell.Tab.1.center/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586113585601" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586029472619" />
+    <state width="1397" height="275" key="GridCell.Tab.1.left" timestamp="1586113585601">
+      <screen x="-1440" y="-138" width="1440" height="860" />
+    </state>
+    <state width="1397" height="275" key="GridCell.Tab.1.left/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586113585601" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586029472619" />
+    <state width="1397" height="275" key="GridCell.Tab.1.right" timestamp="1586113585601">
+      <screen x="-1440" y="-138" width="1440" height="860" />
+    </state>
+    <state width="1397" height="275" key="GridCell.Tab.1.right/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586113585601" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586029472619" />
+    <state x="-1268" y="-138" key="SettingsEditor" timestamp="1586277629987">
+      <screen x="-1440" y="-138" width="1440" height="860" />
+    </state>
+    <state x="-1268" y="-138" key="SettingsEditor/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586277629987" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586025611465" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1586458496077">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="-1040" y="83" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586113719760" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586458496077" />
+    <state x="-1338" y="-88" key="new project wizard" timestamp="1586129599106">
+      <screen x="-1440" y="-138" width="1440" height="860" />
+    </state>
+    <state x="-1338" y="-88" key="new project wizard/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586129599106" />
+    <state x="-1014" y="-80" key="refactoring.ChangeSignatureDialog" timestamp="1586104054053">
+      <screen x="-1440" y="-138" width="1440" height="860" />
+    </state>
+    <state x="-1014" y="-80" key="refactoring.ChangeSignatureDialog/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586104054053" />
+    <state x="-1064" y="126" key="run.anything.popup" timestamp="1586101295584">
+      <screen x="-1440" y="-138" width="1440" height="860" />
+    </state>
+    <state x="-1064" y="126" key="run.anything.popup/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586101295584" />
+    <state x="-1057" y="42" width="672" height="678" key="search.everywhere.popup" timestamp="1586112973676">
+      <screen x="-1440" y="-138" width="1440" height="860" />
+    </state>
+    <state x="-1057" y="42" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586112973676" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="signNum" />
+        <watch expression="score" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
