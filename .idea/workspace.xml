@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4f50eb8-cd25-4179-8645-c68a9932f041" name="Default Changelist" comment="" />
+    <list default="true" id="c4f50eb8-cd25-4179-8645-c68a9932f041" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +17,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="ProjectId" id="1a5UV3xbgBBy515wn7jfy2q71iA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -85,6 +94,10 @@
       <screen x="-1440" y="-138" width="1440" height="860" />
     </state>
     <state x="-1040" y="27" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586113534037" />
+    <state x="-1066" y="-114" key="CommitChangelistDialog2" timestamp="1586458761365">
+      <screen x="-1440" y="-138" width="1440" height="860" />
+    </state>
+    <state x="-1066" y="-114" key="CommitChangelistDialog2/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586458761365" />
     <state width="1323" height="222" key="GridCell.Tab.0.bottom" timestamp="1586343615505">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -135,6 +148,10 @@
     </state>
     <state x="-1040" y="83" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586113719760" />
     <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586458496077" />
+    <state x="-911" y="208" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586459110759">
+      <screen x="-1440" y="-138" width="1440" height="860" />
+    </state>
+    <state x="-911" y="208" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586459110759" />
     <state x="-1338" y="-88" key="new project wizard" timestamp="1586129599106">
       <screen x="-1440" y="-138" width="1440" height="860" />
     </state>
