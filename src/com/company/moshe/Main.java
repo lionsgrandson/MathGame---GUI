@@ -16,6 +16,7 @@ import java.nio.file.Paths;
 import java.util.Random;
 
 import static java.awt.GridBagConstraints.CENTER;
+import static java.awt.GridBagConstraints.SOUTH;
 
 public class Main {
     int[] rndNUmbers = new int[3];
@@ -47,40 +48,45 @@ public class Main {
             e.printStackTrace();
         }
         JFrame frame = new JFrame();
-        JPanel panel = new JPanel( new GridLayout(2, 3));
+        JPanel panel = new JPanel();
 
-        JLabel label = new JLabel();
-        JTextField textField = new JTextField();
+        JLabel questionLabel = new JLabel();
+        JLabel answerHereLabel = new JLabel("Answer Here");
+        JLabel draftLabel = new JLabel("Draft");
+        JTextField answerText = new JTextField("" , 10);
+        JTextArea thinkText = new JTextArea(10, 10);
         JButton button = new JButton();
 
+        questionLabel.setText("");
+        questionLabel.setBounds(25,10,200,40);
 
-        int setY = frame.getY()/2;
-        int setX = frame.getX()/2;
+        answerHereLabel.setBounds(10,60,100,20);
 
-        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-
-
-        textField.setSize( frame.getWidth(),80);
         Border thickBorder = new LineBorder(Color.BLACK, 2);
-        textField.setBorder(thickBorder);
-
-
-        label.setText("this is text");
-        label.setSize(50,50);
+        answerText.setBorder(thickBorder);
+        answerText.setBounds(10,80,140,40);
 
         button.setText("Enter");
-        button.setSize(new Dimension());
+        button.setBounds(10,120,100,40);
 
-        panel.add(label);
-        panel.add(button);
-        panel.add(textField);
+        draftLabel.setBounds(200,10,50,30);
 
+        thinkText.setBounds(155,40,120,200);
+        thinkText.setBorder(thickBorder);
+        thinkText.setLineWrap(true);
+
+        frame.add(questionLabel);
+        frame.add(answerHereLabel);
+        frame.add(answerText);
+        frame.add(button);
+        frame.add(draftLabel);
+        frame.add(thinkText);
         frame.add(panel);
-        frame.setContentPane(panel);
-        frame.pack();
-        frame.setSize(400, 400);
+
         frame.setTitle("Math Game");
+        frame.setSize(300, 300);
         frame.setVisible(true);
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         String ans = "";
         String question = "";
@@ -99,7 +105,6 @@ public class Main {
             file.createNewFile();
         }
 
-
         BufferedReader br = Files.newBufferedReader(path);
         if (br.readLine() != null) {
             score = Integer.parseInt(br.readLine());
@@ -109,18 +114,18 @@ public class Main {
         //it will delete the file context every time, but only after it saves the score to the new program run,
         // it will then save it again when you're done.
         BufferedWriter bw = new BufferedWriter(new FileWriter(path.toString(), false));
-        newQ(label);
+        newQ(questionLabel);
 
         frame.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
-                saveScore(bw,br,label,textField,score);
+                saveScore(bw,br,questionLabel,answerText,score);
             }
         });
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    label.setText(checkANS(question, label, textField, br, bw));
+                    questionLabel.setText(checkANS(question, questionLabel, answerText, br, bw));
                 } catch (IOException ex) {
                     ex.printStackTrace();
                 }
