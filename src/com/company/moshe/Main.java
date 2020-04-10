@@ -42,36 +42,49 @@ public class Main {
         JButton button = new JButton();
         JButton seting = new JButton("Set");
 
-        seting.setBounds(0, 210, 50, 50);
+//        seting.setBounds(0, 210, 50, 50);
         seting.setVisible(false);
+        seting.setSize(new Dimension());
 
         questionLabel.setText("");
-        questionLabel.setBounds(25, 10, 200, 40);
+//        questionLabel.setBounds(25, 10, 200, 40);
+        questionLabel.setSize(new Dimension());
 
-        answerHereLabel.setBounds(10, 60, 100, 20);
+//        answerHereLabel.setBounds(10, 60, 100, 20);
+        answerHereLabel.setSize(new Dimension());
 
         Border thickBorder = new LineBorder(Color.BLACK, 2);
         answerText.setBorder(thickBorder);
-        answerText.setBounds(10, 80, 140, 40);
+//        answerText.setBounds(10, 80, 140, 40);
+        answerText.setSize(new Dimension());
 
         button.setText("Enter");
         button.setBounds(10, 120, 100, 40);
+        button.setSize(new Dimension());
 
-        draftLabel.setBounds(200, 10, 50, 30);
+//        draftLabel.setBounds(200, 10, 50, 30);
+        draftLabel.setSize(new Dimension());
+        draftLabel.setVisible(false);
 
-        thinkText.setBounds(155, 40, 120, 200);
+//        thinkText.setBounds(155, 40, 120, 200);
+        thinkText.setSize(new Dimension());
+
         thinkText.setBorder(thickBorder);
+        thinkText.setVisible(false);
         thinkText.setLineWrap(true);
 
-        frame.add(seting);
+        frame.setLayout(new GridLayout(5,5));
+        frame.add(answerHereLabel);//, BorderLayout.WEST);
         frame.add(questionLabel);
-        frame.add(answerHereLabel);
-        frame.add(answerText);
-        frame.add(button);
-        frame.add(draftLabel);
-        frame.add(thinkText);
+        frame.add(answerText);//, BorderLayout.CENTER);
+        frame.add(button);//,BorderLayout.SOUTH);
+        frame.add(draftLabel);//, BorderLayout.EAST);
+        frame.add(seting);
+        frame.add(thinkText);//,BorderLayout.EAST);
         frame.add(panel);
 
+
+        frame.pack();
         frame.setTitle("Math Game");
         frame.setSize(300, 300);
         frame.setVisible(true);
@@ -182,7 +195,7 @@ public class Main {
                 super.keyPressed(e);
                 if (e.getKeyCode() == 10) {
                     try {
-                        questionLabel.setText(checkANS(question, questionLabel, answerText, br, bw, settingNum, seting));
+                        questionLabel.setText(checkANS(question, questionLabel, answerText, br, bw, settingNum, seting, thinkText, draftLabel));
                     } catch (IOException ex) {
                         ex.printStackTrace();
                     }
@@ -194,7 +207,7 @@ public class Main {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    questionLabel.setText(checkANS(question, questionLabel, answerText, br, bw, settingNum, seting));
+                    questionLabel.setText(checkANS(question, questionLabel, answerText, br, bw, settingNum, seting, thinkText, draftLabel));
                 } catch (IOException ex) {
                     ex.printStackTrace();
                 }
@@ -266,7 +279,7 @@ public class Main {
     }
 
     public String checkANS(String label, JLabel jLabel, JTextField textField,
-                           BufferedReader br, BufferedWriter bw, int settingNum, JButton setting) throws IOException {
+                           BufferedReader br, BufferedWriter bw, int settingNum, JButton setting, JTextArea draftBtn, JLabel draftLabel) throws IOException {
 
         int ansAI;
         if (textField.getText().toLowerCase().equals("next")) {
@@ -275,6 +288,9 @@ public class Main {
             label = " Your score is: " + score;
         } else if (textField.getText().toLowerCase().equals("settings")) {
             setting.setVisible(true);
+        } else if (textField.getText().toLowerCase().equals("draft")) {
+            draftBtn.setVisible(true);
+            draftLabel.setVisible(true);
         } else {
             if (signNum == 0) {
                 ansAI = numbers1 + numbers2;
