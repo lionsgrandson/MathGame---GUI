@@ -119,10 +119,14 @@
       <screen x="-1440" y="-138" width="1440" height="860" />
     </state>
     <state x="-1040" y="27" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586113534037" />
-    <state x="355" y="0" key="CommitChangelistDialog2" timestamp="1586510626049">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="-990" y="38" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586515774477">
+      <screen x="-1440" y="-138" width="1440" height="860" />
     </state>
-    <state x="-1066" y="-114" key="CommitChangelistDialog2/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586460441373" />
+    <state x="-990" y="38" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586515774477" />
+    <state x="-1066" y="-114" key="CommitChangelistDialog2" timestamp="1586515751064">
+      <screen x="-1440" y="-138" width="1440" height="860" />
+    </state>
+    <state x="-1066" y="-114" key="CommitChangelistDialog2/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586515751064" />
     <state x="355" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586510626049" />
     <state width="1397" height="275" key="GridCell.Tab.0.bottom" timestamp="1586515674600">
       <screen x="-1440" y="-138" width="1440" height="860" />
@@ -174,10 +178,10 @@
     </state>
     <state x="-1040" y="83" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586113719760" />
     <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586458496077" />
-    <state x="-911" y="208" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586515699788">
+    <state x="-911" y="208" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586515782432">
       <screen x="-1440" y="-138" width="1440" height="860" />
     </state>
-    <state x="-911" y="208" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586515699788" />
+    <state x="-911" y="208" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586515782432" />
     <state x="502" y="293" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586510576812" />
     <state x="-1338" y="-88" key="new project wizard" timestamp="1586129599106">
       <screen x="-1440" y="-138" width="1440" height="860" />
