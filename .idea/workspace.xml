@@ -97,19 +97,35 @@
       <option name="project" value="LOCAL" />
       <updated>1586510629111</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Just finished setting up the GUI.">
+      <created>1586515752950</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586515752950</updated>
+    </task>
+    <task id="LOCAL-00004" summary="took out some old files that aren't being used anymore">
+      <created>1586515808265</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586515808265</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes are saved, close to being done for today!" />
     <MESSAGE value="changes are saved, starting off the day making sure everything is saved!" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes are saved, starting off the day making sure everything is saved!" />
+    <MESSAGE value="Just finished setting up the GUI." />
+    <MESSAGE value="took out some old files that aren't being used anymore" />
+    <option name="LAST_COMMIT_MESSAGE" value="took out some old files that aren't being used anymore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-926" y="-45" key="#com.intellij.ide.util.MemberChooser" timestamp="1586099017329">
+    <state x="-926" y="-45" key="#com.intellij.ide.util.MemberChooser" timestamp="1586515996421">
       <screen x="-1440" y="-138" width="1440" height="860" />
     </state>
-    <state x="-926" y="-45" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586099017329" />
+    <state x="-926" y="-45" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586515996421" />
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586027235391" />
     <state x="-1018" y="71" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586084340250">
       <screen x="-1440" y="-138" width="1440" height="860" />
@@ -123,30 +139,30 @@
       <screen x="-1440" y="-138" width="1440" height="860" />
     </state>
     <state x="-990" y="38" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586515774477" />
-    <state x="-1066" y="-114" key="CommitChangelistDialog2" timestamp="1586515751064">
+    <state x="-1066" y="-114" key="CommitChangelistDialog2" timestamp="1586515806985">
       <screen x="-1440" y="-138" width="1440" height="860" />
     </state>
-    <state x="-1066" y="-114" key="CommitChangelistDialog2/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586515751064" />
+    <state x="-1066" y="-114" key="CommitChangelistDialog2/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586515806985" />
     <state x="355" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586510626049" />
-    <state width="1397" height="275" key="GridCell.Tab.0.bottom" timestamp="1586515674600">
+    <state width="1397" height="275" key="GridCell.Tab.0.bottom" timestamp="1586517134922">
       <screen x="-1440" y="-138" width="1440" height="860" />
     </state>
-    <state width="1397" height="275" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586515674600" />
+    <state width="1397" height="275" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586517134922" />
     <state width="1323" height="275" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586510682212" />
-    <state width="1397" height="275" key="GridCell.Tab.0.center" timestamp="1586515674600">
+    <state width="1397" height="275" key="GridCell.Tab.0.center" timestamp="1586517134922">
       <screen x="-1440" y="-138" width="1440" height="860" />
     </state>
-    <state width="1397" height="275" key="GridCell.Tab.0.center/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586515674600" />
+    <state width="1397" height="275" key="GridCell.Tab.0.center/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586517134922" />
     <state width="1323" height="275" key="GridCell.Tab.0.center/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586510682212" />
-    <state width="1397" height="275" key="GridCell.Tab.0.left" timestamp="1586515674600">
+    <state width="1397" height="275" key="GridCell.Tab.0.left" timestamp="1586517134921">
       <screen x="-1440" y="-138" width="1440" height="860" />
     </state>
-    <state width="1397" height="275" key="GridCell.Tab.0.left/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586515674600" />
+    <state width="1397" height="275" key="GridCell.Tab.0.left/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586517134921" />
     <state width="1323" height="275" key="GridCell.Tab.0.left/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586510682212" />
-    <state width="1397" height="275" key="GridCell.Tab.0.right" timestamp="1586515674600">
+    <state width="1397" height="275" key="GridCell.Tab.0.right" timestamp="1586517134922">
       <screen x="-1440" y="-138" width="1440" height="860" />
     </state>
-    <state width="1397" height="275" key="GridCell.Tab.0.right/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586515674600" />
+    <state width="1397" height="275" key="GridCell.Tab.0.right/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586517134922" />
     <state width="1323" height="275" key="GridCell.Tab.0.right/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586510682212" />
     <state width="1397" height="275" key="GridCell.Tab.1.bottom" timestamp="1586113585601">
       <screen x="-1440" y="-138" width="1440" height="860" />
@@ -178,10 +194,10 @@
     </state>
     <state x="-1040" y="83" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586113719760" />
     <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586458496077" />
-    <state x="-911" y="208" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586515782432">
+    <state x="-911" y="208" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586517144613">
       <screen x="-1440" y="-138" width="1440" height="860" />
     </state>
-    <state x="-911" y="208" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586515782432" />
+    <state x="-911" y="208" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586517144613" />
     <state x="502" y="293" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586510576812" />
     <state x="-1338" y="-88" key="new project wizard" timestamp="1586129599106">
       <screen x="-1440" y="-138" width="1440" height="860" />

@@ -5,10 +5,7 @@ import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.border.LineBorder;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
+import java.awt.event.*;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -121,6 +118,20 @@ public class Main {
                 saveScore(bw,br,questionLabel,answerText,score);
             }
         });
+        answerText.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                super.keyPressed(e);
+                if(e.getKeyCode() == 10) {
+                    try {
+                        questionLabel.setText(checkANS(question, questionLabel, answerText, br, bw));
+                    } catch (IOException ex) {
+                        ex.printStackTrace();
+                    }
+                }
+            }
+
+        });
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -181,7 +192,7 @@ public class Main {
         if (signNum > 3) {
             signNum = numRND.nextInt(4);
         }
-        label.setText(" " +  numbers1 + " " + sign[signNum] + " " + numbers2 + " ");
+        label.setText(" " +  numbers1 + " " + sign[signNum] + " " + numbers2 + " " );
         return " " +  numbers1 + " " + sign[signNum] + " " + numbers2 + " ";
 
     }
@@ -207,11 +218,15 @@ public class Main {
             } else {
                 ansAI = numbers1 / numbers2;
             }
-            if (Integer.parseInt(textField.getText()) == ansAI) {
-                score++;
-                label += " Very Well Done! ";
-            } else {
-                label += " No, it's: " + ansAI;
+            try {
+                if (Integer.parseInt(textField.getText()) == ansAI) {
+                    score++;
+                    label += " Very Well Done! ";
+                } else {
+                    label += " No, it's: " + ansAI;
+                }
+            }catch (Exception e){
+                //do nothing, it'll just re-ask a question.
             }
             label += newQ(jLabel);
         }
