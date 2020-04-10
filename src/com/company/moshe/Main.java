@@ -18,8 +18,8 @@ public class Main {
     int numbers2 = 0;
     int signNum = 0;
     int score = 0;
-    int settingNum = 0;
-    int settingSign = 0;
+    int settingNum = 11;
+    int settingSign = 3;
 
     public static void main(String[] args) {
         Main main = new Main();
@@ -31,18 +31,6 @@ public class Main {
     }
 
     public void mainRun() throws IOException {
-
-        try {
-            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (UnsupportedLookAndFeelException e) {
-            e.printStackTrace();
-        }
         JFrame frame = new JFrame();
         JPanel panel = new JPanel();
 
@@ -123,16 +111,16 @@ public class Main {
         } else {
             score = 0;
         }
-        if (brSet.readLine() != null) {
-            settingNum = Integer.parseInt(brSet.readLine());
-            if (Integer.parseInt(brSet.readLine()) < 5 && brSet.readLine() != null) {
-                settingSign = Integer.parseInt(brSet.readLine());
-            } else {
-                settingSign = 3;
-            }
-        } else {
+        if (brSet.readLine() == null) {
+//            if (brSet.readLine() != null) {
+//            } else {
+//                settingSign = 3;
             score = 11;
             settingSign = 3;
+//            }
+        } else {
+            settingNum = Integer.parseInt(brSet.readLine());
+            settingSign = Integer.parseInt(brSet.readLine());
         }
 
         //it will delete the file context every time, but only after it saves the score to the new program run,
