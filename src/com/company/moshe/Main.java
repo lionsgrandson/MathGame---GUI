@@ -15,6 +15,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Random;
 
+import static java.awt.GridBagConstraints.CENTER;
+
 public class Main {
     int[] rndNUmbers = new int[3];
     int numbers1 = 0;
@@ -45,34 +47,38 @@ public class Main {
             e.printStackTrace();
         }
         JFrame frame = new JFrame();
-        JPanel panel = new JPanel();
-        frame.add(panel);
+        JPanel panel = new JPanel( new GridLayout(2, 3));
 
         JLabel label = new JLabel();
-        JTextField textField = new JTextField("", 10);
+        JTextField textField = new JTextField();
         JButton button = new JButton();
 
-        panel.add(label);
-        panel.add(textField);
-        panel.add(button);
+
+        int setY = frame.getY()/2;
+        int setX = frame.getX()/2;
 
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        panel.getRootPane().getContentPane().setLayout(new GridLayout(3, 1));
 
 
-        textField.setSize(10, 10);
+        textField.setSize( frame.getWidth(),80);
         Border thickBorder = new LineBorder(Color.BLACK, 2);
         textField.setBorder(thickBorder);
 
-        label.setHorizontalAlignment(SwingConstants.CENTER);
-        label.setVerticalAlignment(SwingConstants.CENTER);
+
         label.setText("this is text");
+        label.setSize(50,50);
 
         button.setText("Enter");
-        button.setHorizontalAlignment(SwingConstants.CENTER);
-        button.setVerticalAlignment(SwingConstants.CENTER);
+        button.setSize(new Dimension());
 
-        frame.setSize(500, 500);
+        panel.add(label);
+        panel.add(button);
+        panel.add(textField);
+
+        frame.add(panel);
+        frame.setContentPane(panel);
+        frame.pack();
+        frame.setSize(400, 400);
         frame.setTitle("Math Game");
         frame.setVisible(true);
 
