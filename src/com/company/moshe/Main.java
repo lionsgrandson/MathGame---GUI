@@ -7,10 +7,14 @@ import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
+import java.lang.reflect.Field;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Random;
+
+import static java.awt.Color.decode;
+import static jdk.nashorn.internal.runtime.regexp.joni.Syntax.Java;
 
 public class Main {
     int[] rndNUmbers = new int[3];
@@ -20,12 +24,14 @@ public class Main {
     int score = 0;
     int settingNum = 11;
     int settingSign = 3;
+    Color color;
+    String colorStr = "white";
 
     public static void main(String[] args) {
         Main main = new Main();
         try {
             main.mainRun();
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
@@ -81,12 +87,15 @@ public class Main {
         frame.add(draftLabel);//, BorderLayout.EAST);
         frame.add(seting);
         frame.add(thinkText);//,BorderLayout.EAST);
-        frame.add(panel);
-
+//        frame.add(panel);
+//        Color color1 = new Color(Color.getColor(color));
 
         frame.pack();
         frame.setTitle("Math Game");
         frame.setSize(300, 300);
+
+
+        frame.getContentPane().setBackground(color);
         frame.setVisible(true);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
@@ -130,12 +139,21 @@ public class Main {
 //                settingSign = 3;
             score = 11;
             settingSign = 3;
+            colorStr = "white";
 //            }
         } else {
             settingNum = Integer.parseInt(brSet.readLine());
             settingSign = Integer.parseInt(brSet.readLine());
+            colorStr = brSet.readLine();
         }
-
+        try {
+            Field field = Class.forName("java.awt.Color").getField(colorStr);
+            color = (Color) field.get(null);
+            frame.getContentPane().setBackground(color);
+            frame.repaint();
+        }catch (Exception e1){
+            color = null;
+        }
         //it will delete the file context every time, but only after it saves the score to the new program run,
         // it will then save it again when you're done.
         BufferedWriter bw = new BufferedWriter(new FileWriter(scorePath.toString(), false));
@@ -144,7 +162,7 @@ public class Main {
 
         frame.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
-                saveScore(bw, br, questionLabel, answerText, score, settingNum, bwSet, brSet, settingSign);
+                saveScore(bw, br, questionLabel, answerText, score, settingNum, bwSet, brSet, settingSign, colorStr);
             }
         });
         seting.addActionListener(new ActionListener() {
@@ -179,9 +197,19 @@ public class Main {
                             String[] settingsStr = setTXT.getText().split(",");
                             settingNum = Integer.parseInt(settingsStr[0]);
                             settingSign = Integer.parseInt(settingsStr[1]);
+                            colorStr = settingsStr[2];
+                            try {
+                                Field field = Class.forName("java.awt.Color").getField(colorStr);
+                                color = (Color) field.get(null);
+                                frame.getContentPane().setBackground(color);
+                                frame.repaint();
+                            }catch (Exception e1){
+                                color = null;
+                            }
+
 //                            System.out.println(settingsStr[0] + " " + settingsStr[1]);
                         } catch (NumberFormatException e1) {
-                            setTXT.setText("only numbers");
+                            setTXT.setText("example, 11,4,blue");
                         }
                     }
                 });
@@ -224,7 +252,7 @@ public class Main {
     }
 
     public static String saveScore(BufferedWriter bw, BufferedReader br, JLabel label, JTextField textField,
-                                   int score, int settingNum, BufferedWriter bwSet, BufferedReader brSet, int settingSign) {
+                                   int score, int settingNum, BufferedWriter bwSet, BufferedReader brSet, int settingSign, String colorStr) {
         String print = "";
         try {
             bw.newLine();
@@ -233,6 +261,8 @@ public class Main {
             bwSet.write(String.valueOf(settingNum));
             bwSet.newLine();
             bwSet.write(String.valueOf(settingSign));
+            bwSet.newLine();
+            bwSet.write(colorStr);
             label.setText("saved");
             print = "saved";
         } catch (IOException e) {

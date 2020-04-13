@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c4f50eb8-cd25-4179-8645-c68a9932f041" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MathGame_jar/MathGame.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MathGame_jar/MathGame.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/moshe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/moshe/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,25 +172,25 @@
     </state>
     <state x="-943" y="-138" key="CommitChangelistDialog2/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586530165122" />
     <state x="355" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586510626049" />
-    <state width="1397" height="275" key="GridCell.Tab.0.bottom" timestamp="1586530197799">
+    <state width="1397" height="275" key="GridCell.Tab.0.bottom" timestamp="1586768873281">
       <screen x="-1440" y="-138" width="1440" height="860" />
     </state>
-    <state width="1397" height="275" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586530197799" />
+    <state width="1397" height="275" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586768873281" />
     <state width="1323" height="275" key="GridCell.Tab.0.bottom/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586510682212" />
-    <state width="1397" height="275" key="GridCell.Tab.0.center" timestamp="1586530197799">
+    <state width="1397" height="275" key="GridCell.Tab.0.center" timestamp="1586768873281">
       <screen x="-1440" y="-138" width="1440" height="860" />
     </state>
-    <state width="1397" height="275" key="GridCell.Tab.0.center/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586530197799" />
+    <state width="1397" height="275" key="GridCell.Tab.0.center/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586768873281" />
     <state width="1323" height="275" key="GridCell.Tab.0.center/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586510682212" />
-    <state width="1397" height="275" key="GridCell.Tab.0.left" timestamp="1586530197798">
+    <state width="1397" height="275" key="GridCell.Tab.0.left" timestamp="1586768873281">
       <screen x="-1440" y="-138" width="1440" height="860" />
     </state>
-    <state width="1397" height="275" key="GridCell.Tab.0.left/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586530197798" />
+    <state width="1397" height="275" key="GridCell.Tab.0.left/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586768873281" />
     <state width="1323" height="275" key="GridCell.Tab.0.left/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586510682212" />
-    <state width="1397" height="275" key="GridCell.Tab.0.right" timestamp="1586530197799">
+    <state width="1397" height="275" key="GridCell.Tab.0.right" timestamp="1586768873281">
       <screen x="-1440" y="-138" width="1440" height="860" />
     </state>
-    <state width="1397" height="275" key="GridCell.Tab.0.right/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586530197799" />
+    <state width="1397" height="275" key="GridCell.Tab.0.right/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586768873281" />
     <state width="1323" height="275" key="GridCell.Tab.0.right/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586510682212" />
     <state width="1397" height="275" key="GridCell.Tab.1.bottom" timestamp="1586113585601">
       <screen x="-1440" y="-138" width="1440" height="860" />
@@ -215,15 +217,15 @@
     </state>
     <state x="-1268" y="-138" key="SettingsEditor/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586530177382" />
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586025611465" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1586458496077">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="-1040" y="83" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586113719760" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586458496077" />
-    <state x="-911" y="208" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586530134287">
+    <state x="-1040" y="83" key="com.intellij.ide.util.TipDialog" timestamp="1586679362017">
       <screen x="-1440" y="-138" width="1440" height="860" />
     </state>
-    <state x="-911" y="208" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586530134287" />
+    <state x="-1040" y="83" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586679362017" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586458496077" />
+    <state x="-911" y="208" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586768892538">
+      <screen x="-1440" y="-138" width="1440" height="860" />
+    </state>
+    <state x="-911" y="208" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1440.-138.1440.860@-1440.-138.1440.860" timestamp="1586768892538" />
     <state x="502" y="293" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1440.-138.1440.860@0.0.1366.728" timestamp="1586510576812" />
     <state x="-1338" y="-88" key="new project wizard" timestamp="1586129599106">
       <screen x="-1440" y="-138" width="1440" height="860" />
