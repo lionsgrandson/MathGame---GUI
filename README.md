@@ -14,7 +14,7 @@ This Java-based game is designed to test and improve your math skills through an
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/math-skills-testing-game.git
+    git clone https://github.com/lionsgrandson/MathGame---GUI.git
     cd math-skills-testing-game
     ```
 
