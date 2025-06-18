@@ -2,31 +2,13 @@
 
 ## Overview
 
-This Java-based game is designed to test and improve your math skills through an interactive graphical user interface (GUI). The game provides a fun way to practice arithmetic operations such as addition, subtraction, multiplication, and division. It includes a user-friendly interface to engage players of all ages.
+This Java-based game is designed to test and improve your math skills through an interactive graphical user interface (GUI). The game provides a fun way to practice arithmetic operations such as addition, subtraction, multiplication, and division. It includes a user-friendly interface to engage players of all ages. I created this app for my 5-year-old sister to motivate her math studies, promising 2 minutes of video game playtime together for each point she earned.
 
 ## Features
 
 - Graphical User Interface (GUI) using Java's Swing library.
 - Randomly generated math problems for addition, subtraction, multiplication, and division.
 - Scoring system to track and display player performance.
-
-## Getting Started
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/lionsgrandson/MathGame---GUI.git
-    cd math-skills-testing-game
-    ```
-
-2. Build the project:
-    ```bash
-    javac MathGame.java
-    ```
-
-3. Run the game:
-    ```bash
-    java MathGame
-    ```
 
 ## How to Play
 
